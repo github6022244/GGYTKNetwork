@@ -1,0 +1,16 @@
+PODS:
+  - GGYTKNetwork (0.1.0)
+
+DEPENDENCIES:
+  - GGYTKNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  GGYTKNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GGYTKNetwork: 680efc9fca5b068e670b262fd27a6ab090e532c4
+
+PODFILE CHECKSUM: 0837004b386f5c71097f9f2eb6507d34e1d2ebce
+
+COCOAPODS: 1.16.2
