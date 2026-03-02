@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9A286D94BD489C99B2717D889869AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		2D7EDDBDA94CBB2F70DC6196460911BD /* Pods-GGYTKNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F04E13AE96443AC419AA3FDE40D23F2A /* Pods-GGYTKNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C15C4B32A14C0023D0651545CD09B1E /* Pods-GGYTKNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8053074815FFE6487966B682923E6D68 /* Pods-GGYTKNetwork_Example-dummy.m */; };
+		93AF9740694E8C3DB9773E45D726457D /* GGYTKNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 366EEE7DA7AC75154EE64DD2CC6F6DA5 /* GGYTKNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B226484721D006A8E5BFB2DA623D4B86 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5600BD3C6792EEDC3DF960CEE02F4F1D /* ReplaceMe.m */; };
+		D62815741AECC2C4A73B0F8E98A02C27 /* Pods-GGYTKNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2782C2B7F8069DE23C9F62611099D5A /* Pods-GGYTKNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8CB482020DABD6AF58B6945C2784503 /* Pods-GGYTKNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F37D5F954F085F3E475FB338CD676EDA /* Pods-GGYTKNetwork_Tests-dummy.m */; };
+		DC8E3D72EA7515ECD8F0A802C5842B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		F90CEC97A67FAA96E5F9755A1B1ABFF7 /* GGYTKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4766532C893BDD079F0B6D2B96111C /* GGYTKNetwork-dummy.m */; };
+		FB063CAE423A7A42198885A28B64F118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C02797D59DB461ADD7631D79EC10811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44EC9339A3138C2AB9898AA2F9A71048;
+			remoteInfo = GGYTKNetwork;
+		};
+		B7B194727EBE928D956FA6F7FF807BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0287FC879FE9FC79E3FD55F1FBEBDFEF;
+			remoteInfo = "Pods-GGYTKNetwork_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BC63823CDEE67C89A3D1E704308B66 /* Pods-GGYTKNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGYTKNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
+		01F95EEAD0D9339EA320BA4429476094 /* Pods-GGYTKNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGYTKNetwork_Example-Info.plist"; sourceTree = "<group>"; };
+		0CB0FE96ECA2DCEC4523E23B9250C092 /* Pods-GGYTKNetwork_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGYTKNetwork_Example"; path = Pods_GGYTKNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111808A4F592B682F43D04F83B7584AA /* Pods-GGYTKNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGYTKNetwork_Tests.modulemap"; sourceTree = "<group>"; };
+		12049EA6BAF831A68D185B536F693D62 /* GGYTKNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGYTKNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		205C9FD29E845FA09572943C8D598573 /* GGYTKNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGYTKNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		366EEE7DA7AC75154EE64DD2CC6F6DA5 /* GGYTKNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGYTKNetwork-umbrella.h"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EA5CD1F89CC5AA252EBE3D754F8F883 /* GGYTKNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGYTKNetwork.release.xcconfig; sourceTree = "<group>"; };
+		4074E2E7B4334D6D06065BD97BC40679 /* Pods-GGYTKNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGYTKNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40E1130DA12A2ED2D85F3E780EBF9AFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		52F58B3225D1F2E1946309ABF5022223 /* GGYTKNetwork */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGYTKNetwork; path = GGYTKNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F947B6D23BFD0C045D25C7E857293A /* GGYTKNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGYTKNetwork-prefix.pch"; sourceTree = "<group>"; };
+		5600BD3C6792EEDC3DF960CEE02F4F1D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GGYTKNetwork/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		5E1CEEC74CCE679A09289319AFED3FC3 /* Pods-GGYTKNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGYTKNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
+		720A6BFD779D325B9F89896F8ED988F6 /* Pods-GGYTKNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGYTKNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		720F0435D4A737752E8EF9E888720E3B /* Pods-GGYTKNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGYTKNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E862802CF176C8D685AB3B93CD5AF38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F4766532C893BDD079F0B6D2B96111C /* GGYTKNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGYTKNetwork-dummy.m"; sourceTree = "<group>"; };
+		8053074815FFE6487966B682923E6D68 /* Pods-GGYTKNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGYTKNetwork_Example-dummy.m"; sourceTree = "<group>"; };
+		8467B0C550E0BAEEFEAF24510B23E417 /* GGYTKNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGYTKNetwork-Info.plist"; sourceTree = "<group>"; };
+		89308B095B2A0AFB7188D952D602CEFD /* Pods-GGYTKNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGYTKNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9349D8CFAAC0E7D616F269CB2774BB7F /* Pods-GGYTKNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGYTKNetwork_Example.modulemap"; sourceTree = "<group>"; };
+		9779883F7C69C9BA3BC42C4E3C09C236 /* Pods-GGYTKNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGYTKNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2296D31E250D81B86445C502A1D46C /* Pods-GGYTKNetwork_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGYTKNetwork_Tests"; path = Pods_GGYTKNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FD1F65D5471DC1A1D74273B7380FC2 /* Pods-GGYTKNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGYTKNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD5A9A2172C7CB884C0AE63739EA8AD /* Pods-GGYTKNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGYTKNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E139A19BC1F56B0755854DC95916A1E3 /* Pods-GGYTKNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGYTKNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFECC15B2B0381DE1E2AA451C8D22562 /* GGYTKNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGYTKNetwork.modulemap; sourceTree = "<group>"; };
+		F04E13AE96443AC419AA3FDE40D23F2A /* Pods-GGYTKNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGYTKNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F2782C2B7F8069DE23C9F62611099D5A /* Pods-GGYTKNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGYTKNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
+		F37D5F954F085F3E475FB338CD676EDA /* Pods-GGYTKNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGYTKNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10909E3208415274B828A540C0737DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8E3D72EA7515ECD8F0A802C5842B0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71A4259FD99EE5BBE4F20B27F87DEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9A286D94BD489C99B2717D889869AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE742FB18B2C44A452901734A2EDB1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB063CAE423A7A42198885A28B64F118 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0834164D1E3892EB2946247B24E38466 /* Pods-GGYTKNetwork_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9349D8CFAAC0E7D616F269CB2774BB7F /* Pods-GGYTKNetwork_Example.modulemap */,
+				720F0435D4A737752E8EF9E888720E3B /* Pods-GGYTKNetwork_Example-acknowledgements.markdown */,
+				9779883F7C69C9BA3BC42C4E3C09C236 /* Pods-GGYTKNetwork_Example-acknowledgements.plist */,
+				8053074815FFE6487966B682923E6D68 /* Pods-GGYTKNetwork_Example-dummy.m */,
+				DAD5A9A2172C7CB884C0AE63739EA8AD /* Pods-GGYTKNetwork_Example-frameworks.sh */,
+				01F95EEAD0D9339EA320BA4429476094 /* Pods-GGYTKNetwork_Example-Info.plist */,
+				F2782C2B7F8069DE23C9F62611099D5A /* Pods-GGYTKNetwork_Example-umbrella.h */,
+				89308B095B2A0AFB7188D952D602CEFD /* Pods-GGYTKNetwork_Example.debug.xcconfig */,
+				00BC63823CDEE67C89A3D1E704308B66 /* Pods-GGYTKNetwork_Example.release.xcconfig */,
+			);
+			name = "Pods-GGYTKNetwork_Example";
+			path = "Target Support Files/Pods-GGYTKNetwork_Example";
+			sourceTree = "<group>";
+		};
+		0C3DEA75D1E1011E39A7B7DE315299A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F58B3225D1F2E1946309ABF5022223 /* GGYTKNetwork */,
+				0CB0FE96ECA2DCEC4523E23B9250C092 /* Pods-GGYTKNetwork_Example */,
+				9E2296D31E250D81B86445C502A1D46C /* Pods-GGYTKNetwork_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FB90C97F9F00DB2659950943644A091 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFECC15B2B0381DE1E2AA451C8D22562 /* GGYTKNetwork.modulemap */,
+				7F4766532C893BDD079F0B6D2B96111C /* GGYTKNetwork-dummy.m */,
+				8467B0C550E0BAEEFEAF24510B23E417 /* GGYTKNetwork-Info.plist */,
+				54F947B6D23BFD0C045D25C7E857293A /* GGYTKNetwork-prefix.pch */,
+				366EEE7DA7AC75154EE64DD2CC6F6DA5 /* GGYTKNetwork-umbrella.h */,
+				205C9FD29E845FA09572943C8D598573 /* GGYTKNetwork.debug.xcconfig */,
+				3EA5CD1F89CC5AA252EBE3D754F8F883 /* GGYTKNetwork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGYTKNetwork";
+			sourceTree = "<group>";
+		};
+		21E12915FB652748C75DC4BEC4917D5D /* Pods-GGYTKNetwork_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				111808A4F592B682F43D04F83B7584AA /* Pods-GGYTKNetwork_Tests.modulemap */,
+				4074E2E7B4334D6D06065BD97BC40679 /* Pods-GGYTKNetwork_Tests-acknowledgements.markdown */,
+				E139A19BC1F56B0755854DC95916A1E3 /* Pods-GGYTKNetwork_Tests-acknowledgements.plist */,
+				F37D5F954F085F3E475FB338CD676EDA /* Pods-GGYTKNetwork_Tests-dummy.m */,
+				5E1CEEC74CCE679A09289319AFED3FC3 /* Pods-GGYTKNetwork_Tests-Info.plist */,
+				F04E13AE96443AC419AA3FDE40D23F2A /* Pods-GGYTKNetwork_Tests-umbrella.h */,
+				B4FD1F65D5471DC1A1D74273B7380FC2 /* Pods-GGYTKNetwork_Tests.debug.xcconfig */,
+				720A6BFD779D325B9F89896F8ED988F6 /* Pods-GGYTKNetwork_Tests.release.xcconfig */,
+			);
+			name = "Pods-GGYTKNetwork_Tests";
+			path = "Target Support Files/Pods-GGYTKNetwork_Tests";
+			sourceTree = "<group>";
+		};
+		44144ABF7E16732F18A7A6929D138BF3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F171444FE622375C25A9821F8975B1 /* GGYTKNetwork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7873CA592BE9B047736E6C37D68D4C9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0834164D1E3892EB2946247B24E38466 /* Pods-GGYTKNetwork_Example */,
+				21E12915FB652748C75DC4BEC4917D5D /* Pods-GGYTKNetwork_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7FCD9E4B6AF409F56178DA5539A2D356 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				12049EA6BAF831A68D185B536F693D62 /* GGYTKNetwork.podspec */,
+				7E862802CF176C8D685AB3B93CD5AF38 /* LICENSE */,
+				40E1130DA12A2ED2D85F3E780EBF9AFF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				44144ABF7E16732F18A7A6929D138BF3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0C3DEA75D1E1011E39A7B7DE315299A5 /* Products */,
+				7873CA592BE9B047736E6C37D68D4C9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6F171444FE622375C25A9821F8975B1 /* GGYTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				5600BD3C6792EEDC3DF960CEE02F4F1D /* ReplaceMe.m */,
+				7FCD9E4B6AF409F56178DA5539A2D356 /* Pod */,
+				0FB90C97F9F00DB2659950943644A091 /* Support Files */,
+			);
+			name = GGYTKNetwork;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2864A5F81147305B91DB7B44BB29A87C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7EDDBDA94CBB2F70DC6196460911BD /* Pods-GGYTKNetwork_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F8C7985A66242B55238142344BEBC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62815741AECC2C4A73B0F8E98A02C27 /* Pods-GGYTKNetwork_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE880F0B2589550156DDADFFD190FDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AF9740694E8C3DB9773E45D726457D /* GGYTKNetwork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0287FC879FE9FC79E3FD55F1FBEBDFEF /* Pods-GGYTKNetwork_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29606BCD8D2D89567930603E833FF30 /* Build configuration list for PBXNativeTarget "Pods-GGYTKNetwork_Example" */;
+			buildPhases = (
+				F1F8C7985A66242B55238142344BEBC9 /* Headers */,
+				D463400EEC5D950990C32E7B0646E643 /* Sources */,
+				DE742FB18B2C44A452901734A2EDB1B0 /* Frameworks */,
+				6BDA9F8AC9005A46634A181CFD947D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516A112C489205A976818C7BDBD0AC95 /* PBXTargetDependency */,
+			);
+			name = "Pods-GGYTKNetwork_Example";
+			productName = Pods_GGYTKNetwork_Example;
+			productReference = 0CB0FE96ECA2DCEC4523E23B9250C092 /* Pods-GGYTKNetwork_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		44EC9339A3138C2AB9898AA2F9A71048 /* GGYTKNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD66E3D5574E157182FA32A4CC8603C /* Build configuration list for PBXNativeTarget "GGYTKNetwork" */;
+			buildPhases = (
+				FCE880F0B2589550156DDADFFD190FDC /* Headers */,
+				4BFCF3A36F43F551434B63070F89C18C /* Sources */,
+				D71A4259FD99EE5BBE4F20B27F87DEBB /* Frameworks */,
+				BD0EDD6869B77E5143BBC36156D2FF5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGYTKNetwork;
+			productName = GGYTKNetwork;
+			productReference = 52F58B3225D1F2E1946309ABF5022223 /* GGYTKNetwork */;
+			productType = "com.apple.product-type.framework";
+		};
+		A545EAFCCB6124CDEC0D922AEBC6095F /* Pods-GGYTKNetwork_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9DEA9926B39C2F4CDBF503D4B4EB37 /* Build configuration list for PBXNativeTarget "Pods-GGYTKNetwork_Tests" */;
+			buildPhases = (
+				2864A5F81147305B91DB7B44BB29A87C /* Headers */,
+				767DD26EFB851FCA61CE582F5F3423C7 /* Sources */,
+				10909E3208415274B828A540C0737DA7 /* Frameworks */,
+				E85FC573EA050D529389B1F0B45C3AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09513C7A0393E1917DEF09537C8A909C /* PBXTargetDependency */,
+			);
+			name = "Pods-GGYTKNetwork_Tests";
+			productName = Pods_GGYTKNetwork_Tests;
+			productReference = 9E2296D31E250D81B86445C502A1D46C /* Pods-GGYTKNetwork_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0C3DEA75D1E1011E39A7B7DE315299A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44EC9339A3138C2AB9898AA2F9A71048 /* GGYTKNetwork */,
+				0287FC879FE9FC79E3FD55F1FBEBDFEF /* Pods-GGYTKNetwork_Example */,
+				A545EAFCCB6124CDEC0D922AEBC6095F /* Pods-GGYTKNetwork_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BDA9F8AC9005A46634A181CFD947D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0EDD6869B77E5143BBC36156D2FF5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85FC573EA050D529389B1F0B45C3AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BFCF3A36F43F551434B63070F89C18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90CEC97A67FAA96E5F9755A1B1ABFF7 /* GGYTKNetwork-dummy.m in Sources */,
+				B226484721D006A8E5BFB2DA623D4B86 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767DD26EFB851FCA61CE582F5F3423C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CB482020DABD6AF58B6945C2784503 /* Pods-GGYTKNetwork_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D463400EEC5D950990C32E7B0646E643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C15C4B32A14C0023D0651545CD09B1E /* Pods-GGYTKNetwork_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09513C7A0393E1917DEF09537C8A909C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GGYTKNetwork_Example";
+			target = 0287FC879FE9FC79E3FD55F1FBEBDFEF /* Pods-GGYTKNetwork_Example */;
+			targetProxy = B7B194727EBE928D956FA6F7FF807BA3 /* PBXContainerItemProxy */;
+		};
+		516A112C489205A976818C7BDBD0AC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGYTKNetwork;
+			target = 44EC9339A3138C2AB9898AA2F9A71048 /* GGYTKNetwork */;
+			targetProxy = 6C02797D59DB461ADD7631D79EC10811 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B9944D033CAAB0D8236F57C5F6AE80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BC63823CDEE67C89A3D1E704308B66 /* Pods-GGYTKNetwork_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGYTKNetwork_Example/Pods-GGYTKNetwork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGYTKNetwork_Example/Pods-GGYTKNetwork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		262D8AB8183D5AF953FEF36ABFE75079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205C9FD29E845FA09572943C8D598573 /* GGYTKNetwork.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGYTKNetwork/GGYTKNetwork-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGYTKNetwork/GGYTKNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGYTKNetwork/GGYTKNetwork.modulemap";
+				PRODUCT_MODULE_NAME = GGYTKNetwork;
+				PRODUCT_NAME = GGYTKNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C60250B57A78F4712E48E8291AFD669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FD1F65D5471DC1A1D74273B7380FC2 /* Pods-GGYTKNetwork_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGYTKNetwork_Tests/Pods-GGYTKNetwork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGYTKNetwork_Tests/Pods-GGYTKNetwork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4229375A243227AFA7D8C26BB708E73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89308B095B2A0AFB7188D952D602CEFD /* Pods-GGYTKNetwork_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGYTKNetwork_Example/Pods-GGYTKNetwork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGYTKNetwork_Example/Pods-GGYTKNetwork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		939ACB23AD87296E1E2C489930D96F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA5CD1F89CC5AA252EBE3D754F8F883 /* GGYTKNetwork.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGYTKNetwork/GGYTKNetwork-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGYTKNetwork/GGYTKNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGYTKNetwork/GGYTKNetwork.modulemap";
+				PRODUCT_MODULE_NAME = GGYTKNetwork;
+				PRODUCT_NAME = GGYTKNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D814BF6E2DD277FDA60757EA14FE67B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720A6BFD779D325B9F89896F8ED988F6 /* Pods-GGYTKNetwork_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGYTKNetwork_Tests/Pods-GGYTKNetwork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGYTKNetwork_Tests/Pods-GGYTKNetwork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9DEA9926B39C2F4CDBF503D4B4EB37 /* Build configuration list for PBXNativeTarget "Pods-GGYTKNetwork_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C60250B57A78F4712E48E8291AFD669 /* Debug */,
+				D814BF6E2DD277FDA60757EA14FE67B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD66E3D5574E157182FA32A4CC8603C /* Build configuration list for PBXNativeTarget "GGYTKNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262D8AB8183D5AF953FEF36ABFE75079 /* Debug */,
+				939ACB23AD87296E1E2C489930D96F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29606BCD8D2D89567930603E833FF30 /* Build configuration list for PBXNativeTarget "Pods-GGYTKNetwork_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4229375A243227AFA7D8C26BB708E73C /* Debug */,
+				1B9944D033CAAB0D8236F57C5F6AE80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
