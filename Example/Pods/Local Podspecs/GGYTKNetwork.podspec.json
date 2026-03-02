@@ -1,22 +1,25 @@
 {
   "name": "GGYTKNetwork",
   "version": "0.1.0",
-  "summary": "A short description of GGYTKNetwork.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/15991163/GGYTKNetwork",
+  "summary": "基于YTKNetwork修改",
+  "description": "基于YTKNetwork修改",
+  "homepage": "https://github.com/github6022244/GGYTKNetwork.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "15991163": "1563084860@qq.com"
+    "Developer": "developer@example.com"
   },
   "source": {
-    "git": "https://github.com/15991163/GGYTKNetwork.git",
+    "git": "https://github.com/github6022244/GGYTKNetwork.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "GGYTKNetwork/Classes/**/*"
+  "source_files": "GGYTKNetwork/Classes/**/*",
+  "dependencies": {
+    "GGAFNetworking": []
+  }
 }

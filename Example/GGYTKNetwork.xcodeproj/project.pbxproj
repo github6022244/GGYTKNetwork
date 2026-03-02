@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0CF405A3DDFC51466957D1E8 /* Pods-GGYTKNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGYTKNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-GGYTKNetwork_Example/Pods-GGYTKNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1BE7B48F17182DA02FF6220C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1BE7B48F17182DA02FF6220C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		354C9923EDF21F0A97479DEF /* Pods-GGYTKNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGYTKNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-GGYTKNetwork_Tests/Pods-GGYTKNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		404B25EE1BB434FB29D6A928 /* GGYTKNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GGYTKNetwork.podspec; path = ../GGYTKNetwork.podspec; sourceTree = "<group>"; };
+		404B25EE1BB434FB29D6A928 /* GGYTKNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GGYTKNetwork.podspec; path = ../GGYTKNetwork.podspec; sourceTree = "<group>"; };
 		42BE35D377A5F8642C36EA47 /* Pods_GGYTKNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGYTKNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* GGYTKNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGYTKNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		63D140F4D51A9487CE415B7C /* Pods-GGYTKNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGYTKNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GGYTKNetwork_Tests/Pods-GGYTKNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9333A5C715AF0CDD7D32C7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A9333A5C715AF0CDD7D32C7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D8E977F90C9FEB4DDCAE8D00 /* Pods-GGYTKNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGYTKNetwork_Example.debug.xcconfig"; path = "Target Support Files/Pods-GGYTKNetwork_Example/Pods-GGYTKNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F86FDDE27FAE7B145436D0C4 /* Pods_GGYTKNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGYTKNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				63D140F4D51A9487CE415B7C /* Pods-GGYTKNetwork_Tests.debug.xcconfig */,
 				354C9923EDF21F0A97479DEF /* Pods-GGYTKNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = 15991163;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = G738ZT7H2Q;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +305,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GGYTKNetwork_Example/Pods-GGYTKNetwork_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GGAFNetworking/GGAFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/GGYTKNetwork/GGYTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GGAFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GGYTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +499,7 @@
 			baseConfigurationReference = D8E977F90C9FEB4DDCAE8D00 /* Pods-GGYTKNetwork_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G738ZT7H2Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GGYTKNetwork/GGYTKNetwork-Prefix.pch";
 				INFOPLIST_FILE = "GGYTKNetwork/GGYTKNetwork-Info.plist";
@@ -510,6 +516,7 @@
 			baseConfigurationReference = 0CF405A3DDFC51466957D1E8 /* Pods-GGYTKNetwork_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G738ZT7H2Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GGYTKNetwork/GGYTKNetwork-Prefix.pch";
 				INFOPLIST_FILE = "GGYTKNetwork/GGYTKNetwork-Info.plist";
